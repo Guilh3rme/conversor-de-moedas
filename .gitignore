@@ -1,0 +1,59 @@
+# Ignorar arquivos e pastas gerados pelo Maven
+/target/
+
+# Ignorar arquivos de configuração do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignorar arquivos de log do Maven
+/logs/
+*.log
+
+# Ignorar arquivos e pastas de IDEs
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+/.project
+/.classpath
+/.settings/
+
+# Ignorar arquivos e pastas gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar o arquivo de ambiente
+.env
+
+# Ignorar arquivos do sistema operacional
+*.swp
+*~
+
+# Ignorar diretórios bin e build
+/bin/
+/build/
+
+# Ignorar dependências locais
+/lib/
+/*.jar
+/*.war
+
+# Ignorar arquivos de compilação
+*.class
+
+# Ignorar arquivos do sistema operacional
+*.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignorar logs e bancos de dados locais
+*.log
+*.sql
+*.sqlite
+
+# Ignorar arquivos de configuração do editor
+/.vscode/
